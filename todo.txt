@@ -1,0 +1,11 @@
+- Add details in front page.
+- Store Information:
+Location:
+ 1234 Pet Street, Your City, ST 12345.
+Business Hours:
+
+Mon-Fri: 9:00 AM - 6:00 PM
+Sat-Sun: 10:00 AM - 4:00 PM
+Telephone Number:
+
+ (555) 123-4567
