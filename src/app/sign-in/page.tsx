@@ -43,12 +43,12 @@ export default function SignIn() {
           router.push("/home");
         } else {
           router.replace(
-            "https://awesome-pets.auth.us-east-1.amazoncognito.com/oauth2/authorize?client_id=16e6ui6h759r8gr1m7hmhsqirg&response_type=token&scope=email+openid&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fsign-in%2F"
+            "https://awesome-pets.auth.us-east-1.amazoncognito.com/oauth2/authorize?client_id=16e6ui6h759r8gr1m7hmhsqirg&response_type=token&scope=email+openid&redirect_uri=https%3A%2F%2Fmain.d208d9u9chtj05.amplifyapp.com%2Fsign-in"
           );
         }
       } else {
         router.replace(
-          "https://awesome-pets.auth.us-east-1.amazoncognito.com/oauth2/authorize?client_id=16e6ui6h759r8gr1m7hmhsqirg&response_type=token&scope=email+openid&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fsign-in%2F"
+          "https://awesome-pets.auth.us-east-1.amazoncognito.com/oauth2/authorize?client_id=16e6ui6h759r8gr1m7hmhsqirg&response_type=token&scope=email+openid&redirect_uri=https%3A%2F%2Fmain.d208d9u9chtj05.amplifyapp.com%2Fsign-in"
         );
       }
     }
